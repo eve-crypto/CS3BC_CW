@@ -17,7 +17,7 @@ namespace BlockchainAssignment
         public double amount;
         public double fee;
 
-        public Transaction(String from, String to, double amount, double fee, String privateKey)
+        public Transaction(String from, String to, double amount, double fee, String privateKey)        
         {
             this.senderAddress = from;
             this.recipientAddress = to;
@@ -27,10 +27,10 @@ namespace BlockchainAssignment
             this.hash = CreateHash();
             this.signature = Wallet.Wallet.CreateSignature(from, privateKey, this.hash);
         }
-        public String CreateHash()
+        public String CreateHash()                      // Hash constructor 
         {
             String hash = String.Empty;
-            SHA256 hasher = SHA256Managed.Create();
+            SHA256 hasher = SHA256Managed.Create();     // Implement Sha-256 hashing algorithm
             String input = timestamp.ToString() + senderAddress + recipientAddress + amount.ToString() + fee.ToString();
             Byte[] hashByte = hasher.ComputeHash(Encoding.UTF8.GetBytes(input));
             foreach (byte x in hashByte)

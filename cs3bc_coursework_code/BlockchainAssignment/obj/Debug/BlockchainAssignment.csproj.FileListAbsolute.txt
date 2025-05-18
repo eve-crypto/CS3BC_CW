@@ -27,7 +27,6 @@ C:\Users\iveta\Downloads\BlockchainAssignment\BlockchainAssignment\obj\Debug\Blo
 C:\Users\iveta\Downloads\BlockchainAssignment\BlockchainAssignment\obj\Debug\BlockchainAssignment.csproj.CoreCompileInputs.cache
 C:\Users\iveta\Downloads\BlockchainAssignment\BlockchainAssignment\obj\Debug\BlockchainAssignment.exe
 C:\Users\iveta\Downloads\BlockchainAssignment\BlockchainAssignment\obj\Debug\BlockchainAssignment.pdb
-<<<<<<< HEAD
 C:\Users\dw021318\Downloads\cs3bc-coursework-main\BlockchainAssignment\bin\Debug\BlockchainAssignment.exe.config
 C:\Users\dw021318\Downloads\cs3bc-coursework-main\BlockchainAssignment\bin\Debug\BlockchainAssignment.exe
 C:\Users\dw021318\Downloads\cs3bc-coursework-main\BlockchainAssignment\bin\Debug\BlockchainAssignment.pdb
@@ -48,5 +47,13 @@ C:\Users\iveta\Downloads\cs3bc-coursework-backup-branch\BlockchainAssignment\obj
 C:\Users\iveta\Downloads\cs3bc-coursework-backup-branch\BlockchainAssignment\obj\Debug\BlockchainAssignment.csproj.CoreCompileInputs.cache
 C:\Users\iveta\Downloads\cs3bc-coursework-backup-branch\BlockchainAssignment\obj\Debug\BlockchainAssignment.exe
 C:\Users\iveta\Downloads\cs3bc-coursework-backup-branch\BlockchainAssignment\obj\Debug\BlockchainAssignment.pdb
-=======
->>>>>>> 45121c39d0e7dab91c2ed55b4757783acff4f1a0
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\bin\Debug\BlockchainAssignment.exe.config
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\bin\Debug\BlockchainAssignment.exe
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\bin\Debug\BlockchainAssignment.pdb
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\obj\Debug\BlockchainAssignment.csproj.AssemblyReference.cache
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\obj\Debug\BlockchainAssignment.BlockchainApp.resources
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\obj\Debug\BlockchainAssignment.Properties.Resources.resources
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\obj\Debug\BlockchainAssignment.csproj.GenerateResource.cache
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\obj\Debug\BlockchainAssignment.csproj.CoreCompileInputs.cache
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\obj\Debug\BlockchainAssignment.exe
+C:\Users\iveta\Downloads\cs3bc_coursework_code\BlockchainAssignment\obj\Debug\BlockchainAssignment.pdb

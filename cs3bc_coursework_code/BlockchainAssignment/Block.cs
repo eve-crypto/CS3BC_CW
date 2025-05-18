@@ -14,7 +14,7 @@ namespace BlockchainAssignment
         public String hash;
         public String prevHash;
         public String merkleRoot;
-        
+
 
         public List<Transaction> transactionList = new List<Transaction>();
         
@@ -25,6 +25,9 @@ namespace BlockchainAssignment
         public double reward = 1.0;  // Fixed logic
         public double fees = 0.0;
         public String minerAddress = String.Empty;
+
+      
+        
 
         /*Genesis Block*/
         public Block()
@@ -44,7 +47,7 @@ namespace BlockchainAssignment
             this.hash = CreateHash();
 
         }
-        public Block(Block lastBlock, List<Transaction> transactions, String minerAddress = "")
+        public Block(Block lastBlock, List<Transaction> transactions, String minerAddress = "")  // Constructor for new blocks 
         {
             this.timestamp = DateTime.Now;
             this.index = lastBlock.index + 1;
@@ -58,7 +61,7 @@ namespace BlockchainAssignment
             this.merkleRoot = MerkleRoot(transactionList);
         }
 
-        public String CreateHash()
+        public String CreateHash()                      // Hash constructor
         {
             String hash = String.Empty;
 
@@ -73,7 +76,7 @@ namespace BlockchainAssignment
 
             return hash;
         }
-        public String Mine()
+        public String Mine()                    // Mining function
         {
             nonce = 0;
             String hash = CreateHash();
@@ -87,7 +90,7 @@ namespace BlockchainAssignment
             }
             return hash;
         }
-        public static String MerkleRoot(List<Transaction> transactionList)
+        public static String MerkleRoot(List<Transaction> transactionList)          // Create the Merkle root
         {
             List<String> hashes = transactionList.Select(t => t.hash).ToList();
             if (hashes.Count == 0)
